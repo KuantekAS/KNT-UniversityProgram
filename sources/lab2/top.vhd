@@ -5,7 +5,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 entity top is
 generic (
-c_clkfreq		: integer := 33_333_333;
+c_clkfreq		: integer := 100_000_000;
 c_baudrate		: integer := 115_200
 );
 
